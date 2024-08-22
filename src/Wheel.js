@@ -2,14 +2,14 @@ import React from 'react';
 
 function Wheel() {
     
-/*
-
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
-<div class="{{$padding_top_mobile}} {{$padding_top_desktop}} {{$padding_bottom_mobile}} {{$padding_bottom_desktop}}">
-    <div id="everyday-easy" class="">
+    /*
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+<div className="{{$padding_top_mobile}} {{$padding_top_desktop}} {{$padding_bottom_mobile}} {{$padding_bottom_desktop}}">
+    <div id="everyday-easy" className="">
         <div id="everyday-easy_main-text-container" class='mx-4 md:mx-9 lg:mx-16 xl:mx-20'>
-            <h1 class="mb-3 ee-title">{{$title}}</h1>
-            <div class="text-3xl ee-main-description">
+            <h1 className="mb-3 ee-title">{{$title}}</h1>
+            <div className="text-3xl ee-main-description">
                 {{$description}}
             </div>
         </div>
@@ -30,17 +30,17 @@ function Wheel() {
             </div>
         </div>
 
-        <div class="limited-window">
+        <div className="limited-window">
             <div id="rotator-container">
                 @for ($x = 0; $x < 4; $x++)
-                <div id="number-{{$x}}" class="fore">
-                    <img id="ee-slot-{{$x}}-image" class="slot" />
-                    <img id="ee-slot-{{$x}}-color-image" class="slot" />
-                    <div id="ee-slot-{{$x}}-copy-container" class="ee-slot-copy-container">
+                <div id="number-{{$x}}" className="fore">
+                    <img id="ee-slot-{{$x}}-image" className="slot" />
+                    <img id="ee-slot-{{$x}}-color-image" className="slot" />
+                    <div id="ee-slot-{{$x}}-copy-container" className="ee-slot-copy-container">
                         <div class='ee-slot-copy-justifier'>
-                            <span id="ee-slot-{{$x}}-title" class="everyday-easy_slot-text"></span>
-                            <p id="ee-slot-{{$x}}-description" class="everyday-easy_slot-description"></p>
-                            <div id="ee-button-{{$x}}" class="slot-button" role='button'></div>
+                            <span id="ee-slot-{{$x}}-title" className="everyday-easy_slot-text"></span>
+                            <p id="ee-slot-{{$x}}-description" className="everyday-easy_slot-description"></p>
+                            <div id="ee-button-{{$x}}" className="slot-button" role='button'></div>
                         </div>
                     </div>
                 </div>
@@ -49,7 +49,7 @@ function Wheel() {
                 </div>
             </div>
             <div id="everyday-easy_sun-rotator-container">
-                <p id="everyday-easy_the-sun" class="everyday-easy_the-sun_initial"></p>
+                <p id="everyday-easy_the-sun" className="everyday-easy_the-sun_initial"></p>
             </div>
         </div>
     </div>
@@ -64,8 +64,8 @@ function Wheel() {
 
 */
     return (
-        <div class="font-bold sm:text-sm md:text-lg xl:text-2xl p-5">
-            This is a wheel.
+        <div className="sm:text-sm md:text-lg xl:text-2xl">
+            This is not yet a wheel.
         </div>
     )
 }

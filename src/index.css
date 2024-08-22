@@ -1,3 +1,17 @@
+/* TODO: make mixins for screen sizes 
+WHOOPS mixins are only in SASS? 
+small 
+  @media screen and (max-width: 767px;)
+medium only 
+  @media screen and (min-width: 768px) and (max-width: 1099px) 
+small and medium 
+  @media screen and (max-width: 1099px) {
+large only 
+  @media screen and (max-width: 1399px) and (min-width: 1100px) {
+large and above 
+  @media screen and (min-width: 1400px)  
+  */
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -11,3 +25,37 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+h1 {
+  font-weight: 700;
+  font-size: 3.25rem;
+  @media screen and (min-width: 768px) and (max-width: 1099px) {
+    font-size: 2.75rem;
+  }
+  @media screen and (max-width: 767px) {
+    font-size: 2.5rem;
+  }
+}
+
+h2 {
+  font-weight: 600;
+  font-size: 2.5rem;
+  @media screen and (max-width: 1099px) and (min-width: 768px) {
+    font-size: 2.25rem;
+  }
+  @media screen and (max-width: 767px) {
+    font-size: 1.75rem;
+  }
+}
+
+.full-width {
+  margin-left: -9999px;
+  margin-right: -9999px;
+  display: flex;
+  justify-content: center;
+}
+
+.content {
+  width: 100vw;
+  padding-left: 80px;
+  padding-right: 80px;
+}
