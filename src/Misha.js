@@ -15,8 +15,10 @@ function Component() {
     return (
         <div className="full-width bg-black text-white">
             <div className="content flex sm:flex-col md:flex-row md:items-end gap-3 relative">
-                <h1>Tuesday Productions, LLC</h1>
-                
+                <h1>Misha Tuesday</h1>
+                <div className="overflow-hidden md:absolute bottom-0 right-20 pb-1 jutify-center">
+                    <h2 className="scroll-text">Software Engineer<br /><br />Magician<br /><br />Hypnotist<br /><br />Podcaster</h2>
+                </div>
             </div>
         </div>
     )

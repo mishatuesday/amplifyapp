@@ -6,7 +6,7 @@ import Wheel from './Wheel'
 function App() {
   return (
     <div className="main content pt-5">
-      <div className="text-sm">
+      <div className="text-sm text-white">
         <div className="xs:block sm:hidden">
           extra small
         </div>
