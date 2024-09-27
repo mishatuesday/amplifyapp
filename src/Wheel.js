@@ -11,9 +11,9 @@ function Wheel() {
         alert('Spin is currently disabled');
     }
     return (
-        <div className="flex py-16 sm:text-md md:text-lg xl:text-2xl">
-            <div className="flex overflow-hidden w-1/2">
-                <div className="w-[200%] sm:ml-[-200px] md:ml-[-400px]">
+        <div className="flex gap-5 pt-16 sm:text-md md:text-lg xl:text-2xl">
+            <div className="flex overflow-hidden w-1/2 max-h-[600px]">
+                <div className="w-[200%] ml-[-200px] md:ml-[-400px]">
                     <img src={wheel} alt="the wheel" />
                 </div>
             </div>
